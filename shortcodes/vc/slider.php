@@ -56,6 +56,11 @@
         "type" => "colorpicker",
 				"heading" => "Button color",
 				"param_name" => "btn_color"
+      ],
+      [
+        "type" => "colorpicker",
+				"heading" => "Title color",
+				"param_name" => "title_color"
       ]
 	 ];
 

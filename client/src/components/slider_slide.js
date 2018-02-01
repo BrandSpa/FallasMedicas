@@ -86,10 +86,15 @@ class SliderSlide extends Component {
 
       <div className="container ra-vertical-center ra-full-height ra-remove-vertical-center">
        <div className="slider__slide__content">
-         <div style={{transition: 'transform 0.3s ease-out'}}  dangerouslySetInnerHTML={{__html: slide.slide_content}} />
-         <a href={slide.btn_link} className="btn" style={{background: slide.btn_color}}>
-          {slide.btn_txt}
-         </a>
+        <div className="slider__title">
+          <h1>${slide.slide_title}</h1>
+        </div>
+         <div style={{transition: 'transform 0.3s ease-out'}}  dangerouslySetInne rHTML={{__html: slide.slide_content}} />
+         {(slide.btn_txt)?`
+          <a href=${slide.btn_link} className="btn" style=${{background: slide.btn_color}}>
+            ${slide.btn_txt}
+          </a>
+         `:''}
         </div>
       </div>
 

@@ -14,6 +14,7 @@ function ra_posts_slider_sc( $atts ) {
 		$item->post_thumbnail = wp_get_attachment_image_src($attachment_id, 'thumbnail')[0];
 		$item->post_image = wp_get_attachment_image_src($attachment_id, 'full')[0];
 		$item->post_categories = get_the_category($item->ID);
+		$item->post_content = esc_textarea($item->post_content);
 		return $item;
 	}, $query->get_posts());
 

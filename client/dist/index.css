@@ -1026,7 +1026,7 @@ li {
       -webkit-transform: scale(1.02);
       transform: scale(1.02); }
   .post-slide__title {
-    color: #6031BA;
+    color: #1d88fb;
     margin: 0 0 20px 0;
     letter-spacing: normal;
     line-height: 1.5;
@@ -1037,16 +1037,16 @@ li {
     margin: 0 0 10px 0;
     font-size: 16px;
     line-height: 1.4;
-    border-bottom: 1px solid #6031BA;
+    border-bottom: 1px solid #1d88fb;
     padding-bottom: 60px; }
   .post-slide__link {
     display: block;
     text-align: right;
-    color: #6031BA;
+    color: #1d88fb;
     font-size: 14px;
     font-weight: 600;
     padding-top: 20px;
-    border-top: 1px solid #6031BA; }
+    border-top: 1px solid #1d88fb; }
   .post-slide .btn {
     float: right; }
 

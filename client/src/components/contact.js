@@ -95,21 +95,11 @@ class Contact extends Component {
         </div>
 
         <div className="form-group">
-          <input
-            name="company"
-            type="text"
-            className="form-control"
-            placeholder="Empresa"
-            onChange={this.handleChange}
-            value={company}/>
-        </div>
-
-        <div className="form-group">
           <textarea
             name="question"
             rows="4"
             className="form-control"
-            placeholder="¿Dudas?"
+            placeholder="Describe brevemente tu caso"
             onChange={this.handleChange}
             value={question}/>
           <div className="input-error" style={ errors.question ? {display: 'block'} : {display: 'none'}}>{errors.question}</div>

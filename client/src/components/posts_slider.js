@@ -60,7 +60,7 @@ class PostsSlider extends Component {
     if(this.state.mobile) {
       viewportWidth = `${total * 100}%`;
     }
-
+    console.log(this.props);
     return (
       <div className="posts-slider">
         <div className="posts-slider__container">

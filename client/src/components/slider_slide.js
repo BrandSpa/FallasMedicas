@@ -108,14 +108,14 @@ class SliderSlide extends Component {
           ref={model => this.model = model}
           className="slider__slide__model lazyload blur-up"
           style={slideStyle}
-          data-bgset={`${slide.model_img_mobile} [(max-width: 767px)] | ${slide.model_img}`}
+          data-bgset={`${slide.model_img_mobile} | ${slide.model_img}`}
         />
 
         <div
           ref={obj_img => this.obj_img = obj_img}
           className="slider__slide__object lazyload blur-up"
           style={slideStyle}
-          data-bgset={`${slide.object_img_mobile} [(max-width: 767px)] | ${slide.object_img}`}
+          data-bgset={`${slide.object_img_mobile} | ${slide.object_img}`}
         />
 
       </section>

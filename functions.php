@@ -44,3 +44,8 @@ register_nav_menus(
     'header' => 'Header Nav'
   )
 );
+
+function my_theme_scripts() {
+  wp_enqueue_script( 'my-great-script', get_template_directory_uri() . '/public/js/jquery-3.3.1.min.js', '', '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );

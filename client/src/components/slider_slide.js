@@ -90,11 +90,11 @@ class SliderSlide extends Component {
           <h1>${slide.slide_title}</h1>
         </div>
          <div style={{transition: 'transform 0.3s ease-out'}}  dangerouslySetInne rHTML={{__html: slide.slide_content}} />
-         {(slide.btn_txt)?`
-          <a href=${slide.btn_link} className="btn" style=${{background: slide.btn_color}}>
-            ${slide.btn_txt}
+         {(slide.btn_txt)?
+          <a href={slide.btn_link} className="btn" style={{background: slide.btn_color}}>
+            {slide.btn_txt}
           </a>
-         `:''}
+         :''}
         </div>
       </div>
 

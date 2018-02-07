@@ -29,6 +29,12 @@
       margin: auto;
       font-size: 30px;
       z-index: 2;
+
+      svg{
+        g{
+          stroke: #1d88fb;
+        }
+      }
     }
 
     &__left {

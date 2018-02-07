@@ -984,6 +984,8 @@ li {
       margin: auto;
       font-size: 30px;
       z-index: 2; }
+      .posts-slider__btns a svg g {
+        stroke: #1d88fb; }
     .posts-slider__btns__left {
       left: -40px; }
       @media (max-width: 767px) {

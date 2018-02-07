@@ -34,7 +34,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 @font-face {
-    font-family: 'bryantmedium_condensed';
+    font-family: 'Bryant-MediumCondensed';
     src: url('fonts/bryant-mediumcondensed-webfont.woff2') format('woff2'),
          url('fonts/bryant-mediumcondensed-webfont.woff') format('woff');
     font-weight: normal;

@@ -103,6 +103,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -740,7 +741,7 @@ li {
           padding: 15px 30px;
           border-bottom: 1px solid #f7f7f7; }
   .app-header--scrolling {
-    background: RGBA(96, 49, 186, 1);
+    background: #1689fe;
     color: #fff !important;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
@@ -838,6 +839,8 @@ li {
     transition: -webkit-transform 700ms;
     transition: transform 700ms;
     transition: transform 700ms, -webkit-transform 700ms; }
+  .slider__content p {
+    color: #fff; }
   .slider__btns {
     margin: 0;
     width: 100%;
@@ -851,6 +854,8 @@ li {
       margin: auto;
       z-index: 90;
       font-family: 'Gotham Rounded Medium'; }
+      .slider__btns a svg g {
+        stroke: #fff; }
   .slider__content__title {
     font-size: 2.7em;
     line-height: 150%;

@@ -26,6 +26,12 @@
     transition: transform 700ms
   }
 
+  &__content{
+    p{
+      color: #fff;
+    }
+  }
+
   &__btns {
     margin: 0;
     width: 100%;
@@ -40,6 +46,13 @@
       margin: auto;
       z-index: 90;
       font-family:  'Gotham Rounded Medium';
+
+      svg{
+        g{
+          stroke: #fff;
+        }
+      }
+
     }
   }
 

@@ -9,6 +9,63 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+@font-face {
+    font-family: 'Bryant-BoldCondensed';
+    src: url('fonts/bryant-boldcondensed-webfont.woff2') format('woff2'),
+         url('fonts/bryant-boldcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bryantlight_condensed';
+    src: url('fonts/bryant-lightcondensed-webfont.woff2') format('woff2'),
+         url('fonts/bryant-lightcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bryantmedium_condensed';
+    src: url('fonts/bryant-mediumcondensed-webfont.woff2') format('woff2'),
+         url('fonts/bryant-mediumcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bryantregular_condensed';
+    src: url('fonts/bryant-regularcondensed-webfont.woff2') format('woff2'),
+         url('fonts/bryant-regularcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Jellee-Roman';
+    src: url('fonts/jellee-roman-webfont.woff2') format('woff2'),
+         url('fonts/jellee-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
 	font-family: 'Jellee-Roman';
 	font-size: 3.7em;

@@ -37,6 +37,11 @@
         "heading" => "Object image mobile",
         "param_name" => "object_img_mobile"
       ],
+		 	[
+				"type" => "textfield",
+				"heading" => "Slide title",
+				"param_name" => "slide_title"
+			],
 			[
 				"type" => "textarea",
 				"heading" => "Slide content",
@@ -56,6 +61,11 @@
         "type" => "colorpicker",
 				"heading" => "Button color",
 				"param_name" => "btn_color"
+      ],
+      [
+        "type" => "colorpicker",
+				"heading" => "Title color",
+				"param_name" => "title_color"
       ]
 	 ];
 

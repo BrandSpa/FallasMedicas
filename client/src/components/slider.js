@@ -47,7 +47,8 @@ class Slider extends Component {
 							/>
 					)}
 				</div>
-				<div className="slider__btns">
+				{this.props.slides.length > 1 ? 
+					<div className="slider__btns">
 					<a className="slider__btns__left" href="#" onClick={this.prev}>
 						<ArrowLeft />
 					</a>
@@ -55,6 +56,9 @@ class Slider extends Component {
 						<ArrowRight />
 					</a>
 				</div>
+				:''
+				}
+				
 			</div>
 		)
 	}

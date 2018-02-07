@@ -72,7 +72,11 @@ class SliderSlide extends Component {
       backgroundSize: 'cover',
       transition: 'transform 0.3s ease-out',
 
-		};
+    };
+    
+    const titleColor = {
+      color: slide.title_color? slide.title_color: '#FFF'
+    };
 
     return (
       <section
@@ -87,10 +91,13 @@ class SliderSlide extends Component {
       <div className="container ra-vertical-center ra-full-height ra-remove-vertical-center">
        <div className="slider__slide__content">
         <div className="slider__title">
-          <h1>${slide.slide_title}</h1>
+          <h1 style={titleColor}>{slide.slide_title}</h1>
+        </div>
+        <div className="slider__content">
+          <p>{slide.slide_content}</p>
         </div>
          <div style={{transition: 'transform 0.3s ease-out'}}  dangerouslySetInne rHTML={{__html: slide.slide_content}} />
-         {(slide.btn_txt)?
+         {(slide.btn_txt && slide.btn_link)?
           <a href={slide.btn_link} className="btn" style={{background: slide.btn_color}}>
             {slide.btn_txt}
           </a>

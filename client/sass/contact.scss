@@ -1,22 +1,25 @@
 .form-contact {
   
   input, textarea {
+    color: #545454;
+    border-bottom: 1px solid #d9d9d9;
+
     &::-webkit-input-placeholder {
-      color: #fff;
+      color: #545454;
     }
 
     &:-moz-placeholder {
       /* Firefox 18- */
-      color: #fff;
+      color: #545454;
     }
 
     &::-moz-placeholder {
       /* Firefox 19+ */
-      color: #fff;
+      color: #545454;
     }
 
     &:-ms-input-placeholder {
-      color: #fff;
+      color: #545454;
     }
   }
 }

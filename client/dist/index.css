@@ -944,19 +944,19 @@ li {
     .quo-fixed input:-ms-input-placeholder, .quo-fixed select:-ms-input-placeholder {
       color: #6031BA; }
 
-.form-contact input::-webkit-input-placeholder, .form-contact textarea::-webkit-input-placeholder {
-  color: #fff; }
-
-.form-contact input:-moz-placeholder, .form-contact textarea:-moz-placeholder {
-  /* Firefox 18- */
-  color: #fff; }
-
-.form-contact input::-moz-placeholder, .form-contact textarea::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #fff; }
-
-.form-contact input:-ms-input-placeholder, .form-contact textarea:-ms-input-placeholder {
-  color: #fff; }
+.form-contact input, .form-contact textarea {
+  color: #545454;
+  border-bottom: 1px solid #d9d9d9; }
+  .form-contact input::-webkit-input-placeholder, .form-contact textarea::-webkit-input-placeholder {
+    color: #545454; }
+  .form-contact input:-moz-placeholder, .form-contact textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #545454; }
+  .form-contact input::-moz-placeholder, .form-contact textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #545454; }
+  .form-contact input:-ms-input-placeholder, .form-contact textarea:-ms-input-placeholder {
+    color: #545454; }
 
 .posts-slider {
   position: relative;

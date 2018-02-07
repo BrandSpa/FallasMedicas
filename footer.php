@@ -4,6 +4,19 @@
 <!-- /wordpress files-->
 <script src="<?php echo get_template_directory_uri() ?>/client/dist/vendor.js"></script>
 
+<script>
+  onLoad(function() {
+    jQuery(window).on('scroll', function(e) {
+      var $header = jQuery('.app-header');
+      if(jQuery(window).scrollTop() > $header.height()) {
+        $header.addClass('app-header--scrolling');
+      } else {
+        $header.removeClass('app-header--scrolling');
+      }
+    });
+  });
+</script>
+
 <!--async load app-->
 <script type="text/javascript">
 function appendScript(src) {

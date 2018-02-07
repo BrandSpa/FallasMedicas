@@ -29,18 +29,6 @@
 
 </head>
 <body>
-	<script>
-		onLoad(function() {
-			jQuery(window).on('scroll', function(e) {
-				var $header = jQuery('.app-header');
-				if(jQuery(window).scrollTop() > $header.height()) {
-					$header.addClass('app-header--scrolling');
-				} else {
-					$header.removeClass('app-header--scrolling');
-				}
-			});
-		});
-	</script>
 
 <header class="app-header">
 	<div class="container">

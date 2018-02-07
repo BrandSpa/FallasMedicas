@@ -10,62 +10,65 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 h1 {
-  font-size: 2.7em;
-  line-height: 150%;
-  font-family: 'Gotham Rounded Book';
+	font-family: 'Jellee-Roman';
+	font-size: 3.7em;
+	color: #FF4B6E;
+	line-height: 60px;
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 40px;
-  line-height: 50px;
+ font-family: 'Jellee-Roman';
+ font-size: 2.5em; 
+ color: #1689FE;
+ line-height: 45px;
 }
 
 h3 {
-  font-size: 1.5em;
-  line-height: 140%;
-  font-family: 'Aktiv Grotesk';
-  font-weight: 900;
+  	font-family: 'Bryant-BoldCondensed';
+	font-size:  1.8em;
+	color: #FF4B6E;
+	line-height: 26px;
 }
 
 h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  line-height: 150%;
-  font-weight: 500;
-  font-family: 'Gotham Rounded Medium';
-  letter-spacing: 2px;
+ 	font-family: 'Bryant-BoldCondensed';
+	font-size: 1.5em;
+	color: #1689FE;
+	line-height: 28px;
 }
 
 h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 100%;
-  line-height: 150%;
-  font-weight: 500;
-  font-family: 'Gotham Rounded Medium';
+ 	font-family: 'Bryant-MediumCondensed';
+	font-size: 1em;
+	color: #636363;
+	line-height: 20px;
 }
 
 h6 {
-  margin-bottom: 10px;
-  font-size: 13px;
-  line-height: 19px;
-  font-family: 'Aktiv Grotesk';
+	font-family: 'Bryant-BoldCondensed';
+	font-size: 1em;
+	color: #FF4B6E;
+	letter-spacing: 4px;
+	line-height: 26px;
 }
 
 p {
-  font-family: 'Aktiv Grotesk';
-  font-weight: 300;
-  font-size: 1em;
-  line-height: 155%;
+ 	font-family: 'Bryant-RegularCondensed';
+ 	font-size: 1.2em;
+ 	color: #545454;
+ 	line-height: 26px;
 }
 
 a {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 300;
+  	text-decoration: none;
+  	font-size: 1em;
+	color: #FF4B6E;
+ 
+}
+
+.app-header__menu li a {
+	font-family: 'Bryant-MediumCondensed';
+	color: #FFFFFF;	
 }
 
 select{

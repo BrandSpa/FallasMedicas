@@ -111,6 +111,14 @@
     padding-bottom: 60px;
   }
 
+  &__header{
+    padding: 10px 0px;
+
+    span{
+      color: #545454;
+    }
+  }
+
   &__link {
     display: block;
     text-align: initial;

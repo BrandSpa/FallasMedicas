@@ -839,10 +839,6 @@ li {
     transition: -webkit-transform 700ms;
     transition: transform 700ms;
     transition: transform 700ms, -webkit-transform 700ms; }
-  .slider__header {
-    padding: 10px 0px; }
-    .slider__header span {
-      color: #545454; }
   .slider__content p {
     color: #fff; }
   .slider__btns {
@@ -1044,6 +1040,10 @@ li {
     line-height: 1.4;
     border-bottom: 1px solid #1d88fb;
     padding-bottom: 60px; }
+  .post-slide__header {
+    padding: 10px 0px; }
+    .post-slide__header span {
+      color: #545454; }
   .post-slide__link {
     display: block;
     text-align: initial;

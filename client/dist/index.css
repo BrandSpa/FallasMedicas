@@ -839,6 +839,10 @@ li {
     transition: -webkit-transform 700ms;
     transition: transform 700ms;
     transition: transform 700ms, -webkit-transform 700ms; }
+  .slider__header {
+    padding: 10px 0px; }
+    .slider__header span {
+      color: #545454; }
   .slider__content p {
     color: #fff; }
   .slider__btns {
@@ -1042,12 +1046,11 @@ li {
     padding-bottom: 60px; }
   .post-slide__link {
     display: block;
-    text-align: right;
-    color: #1d88fb;
+    text-align: initial;
+    color: #FF4B6E;
     font-size: 14px;
     font-weight: 600;
-    padding-top: 20px;
-    border-top: 1px solid #1d88fb; }
+    padding-top: 20px; }
   .post-slide .btn {
     float: right; }
 

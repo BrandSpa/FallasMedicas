@@ -26,6 +26,14 @@
     transition: transform 700ms
   }
 
+  &__header{
+    padding: 10px 0px;
+
+    span{
+      color: #545454;
+    }
+  }
+
   &__content{
     p{
       color: #fff;

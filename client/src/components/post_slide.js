@@ -20,7 +20,7 @@ class PostSlide extends Component {
       <div className="post-slide" style={{width: postWidth, float: 'left'}}>
         <div className="post-slide__content">
           <div className="post-slide__header">
-            <span>{}</span> 
+            <span>{post.post_date}</span> 
           </div>
           <a href={post.guid}>
             <h4 className="post-slide__title">{post.post_title}</h4>

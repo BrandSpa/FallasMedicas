@@ -39,7 +39,6 @@ class Contact extends Component {
 
         return this.setState({success: data.success});
 
-
       })
     }
   }

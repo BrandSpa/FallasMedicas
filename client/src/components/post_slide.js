@@ -9,7 +9,7 @@ class PostSlide extends Component {
   }
 
   getDate = ( dateStr ) => {
-    let date = new DAte(dateStr);
+    let date = new Date(dateStr);
 
     return date.getDay() +'.'+date.getMonth()+'.'+date.getFullYear();
 

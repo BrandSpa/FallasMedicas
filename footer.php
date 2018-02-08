@@ -6,8 +6,8 @@
     </div>
     <div class="col-md-4">
       <ul>
-        <li>Cel: (+57) 320 979 5969</li>
-        <li>vanessalotero@fallasmedicas.com</li>
+        <li> <i class="far fa-comment-alt"></i>Cel: (+57) 320 979 5969</li>
+        <li> <i class="far fa-envelope-open"></i> vanessalotero@fallasmedicas.com</li>
       </ul>
     </div>
     <div class="col-md-4">

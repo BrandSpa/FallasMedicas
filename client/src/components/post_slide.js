@@ -8,6 +8,13 @@ class PostSlide extends Component {
     });
   }
 
+  getDate = ( dateStr ) => {
+    let date = new DAte(dateStr);
+
+    return date.getDay() +'.'+date.getMonth()+'.'+date.getFullYear();
+
+  }
+
   render() {
     const { post, total } = this.props;
     let postWidth = `${200 / (total * 2)}%`;
@@ -20,7 +27,7 @@ class PostSlide extends Component {
       <div className="post-slide" style={{width: postWidth, float: 'left'}}>
         <div className="post-slide__content">
           <div className="post-slide__header">
-            <span>{post.post_date}</span> 
+            <span>{getDate(post.post_date)}</span> 
           </div>
           <a href={post.guid}>
             <h4 className="post-slide__title">{post.post_title}</h4>

@@ -1,5 +1,5 @@
 <footer class="row footer">
-  <div class="col-md-4">
+  <div class="col-md-4 text-center">
     <?php  require('templates/logo.php') ?>
   </div>
   <div class="col-md-4">

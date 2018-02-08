@@ -2768,5 +2768,7 @@ html {
   right: 0;
   margin-right: 0;
   margin-left: 0; }
+  .footer .text-center {
+    text-align: center; }
   .footer ul li {
     color: #FFF; }

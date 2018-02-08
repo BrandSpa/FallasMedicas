@@ -1,4 +1,20 @@
-
+<footer>
+  <div class="col-md-4">
+    <?php  require('templates/logo.php') ?>
+  </div>
+  <div class="col-md-4">
+    <ul>
+      <li>Cel: (+57) 320 979 5969</li>
+      <li>vanessalotero@fallasmedicas.com</li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <ul>
+      <li>&copy; <?php echo date('Y'); ?></li>
+      <li>Fallas Médicas All Rights Reserved</li>
+    </ul> 
+  </div>
+</footer>
 <!--wordpress files-->
 <?php wp_footer() ?>
 <!-- /wordpress files-->

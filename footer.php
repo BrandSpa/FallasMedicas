@@ -24,7 +24,7 @@
 <?php wp_footer() ?>
 <!-- /wordpress files-->
 <script src="<?php echo get_template_directory_uri() ?>/client/dist/vendor.js"></script>
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <script>
   onLoad(function() {
     jQuery(window).on('scroll', function(e) {

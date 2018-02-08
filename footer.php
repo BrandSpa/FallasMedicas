@@ -1,6 +1,6 @@
-<footer class="row footer">
+<footer class="footer">
   <div class="container">
-
+    <div class="row">
     <div class="col-md-4 text-center">
       <?php  require('templates/logo.php') ?>
     </div>
@@ -16,7 +16,7 @@
         <li>Fallas Médicas All Rights Reserved</li>
       </ul> 
     </div>
-
+    </div>
   </div>
   
 </footer>

@@ -2758,3 +2758,13 @@ html {
   .align-self-xl-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important; } }
+
+.footer {
+  background: #1d88fb;
+  padding: 6% 0px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-right: 0;
+  margin-left: 0; }

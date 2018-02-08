@@ -1,4 +1,4 @@
-<footer class="row">
+<footer class="row footer">
   <div class="col-md-4">
     <?php  require('templates/logo.php') ?>
   </div>

@@ -1008,9 +1008,10 @@ li {
     background-size: cover;
     min-height: 250px;
     cursor: pointer; }
+  .post-slide__image img {
+    max-width: 100%; }
   .post-slide__content {
     background: #FFF;
-    border-radius: 20px;
     padding: 40px;
     float: left;
     width: 100%;

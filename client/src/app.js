@@ -12,6 +12,7 @@ import PostsSlider from './components/posts_slider';
 import MenuMobile from './components/menu_mobile';
 import FooterMobile from './components/footer_mobile';
 import Arrow from './components/lib/arrow';
+import arrow from './components/lib/arrow';
 
 multipleRender(FooterMobile, '.ra-footer-mobile');
 multipleRender(MenuMobile, '.ra-menu-mobile');
@@ -20,6 +21,7 @@ multipleRender(QuotationFormFixed, '.ra-quotation-form-fixed');
 multipleRender(Contact, '.ra-contact');
 multipleRender(PostsSlider, '.ra-posts-slider');
 
+arrow();
 
 function hasClass(el, classNm) {
   if(el.className.indexOf(classNm) > -1) {

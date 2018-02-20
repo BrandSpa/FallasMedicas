@@ -62,5 +62,8 @@
 		 <div class="ra-menu-mobile" data-props='<?php echo json_encode($menuProps) ?>'></div>
 	</div>
 </header>
-
-
+<div class="floating-logo">
+	<a href="/" class="">
+				<?php  require('templates/float.php') ?>
+	</a>
+</div>

@@ -113,7 +113,7 @@ class Contact extends Component {
           style={{display: 'none'}}
         />
 
-        <div className="checkbox">
+        <div className="checkbox checkbox_privacy">
           <label htmlFor="privacy" onClick={this.toggleCheckbox}>
             <input
               type="checkbox"

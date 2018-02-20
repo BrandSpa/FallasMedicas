@@ -94,6 +94,13 @@
        position: absolute;
        z-index: 998;
 
+       .btn{
+          margin-top: 45px;
+          display: block;
+          width: auto;
+          max-width: 300px;
+       }
+
        @media #{$s} {
          margin-top: 63px 0.3em;
          text-align: center;

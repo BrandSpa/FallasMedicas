@@ -883,6 +883,11 @@ li {
     max-width: 500px;
     position: absolute;
     z-index: 998; }
+    .slider__slide__content .btn {
+      margin-top: 45px;
+      display: block;
+      width: auto;
+      max-width: 300px; }
     @media (max-width: 767px) {
       .slider__slide__content {
         margin-top: 63px 0.3em;

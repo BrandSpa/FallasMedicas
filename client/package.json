@@ -19,7 +19,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-multiple-render": "1.1.1",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "babel": "^6.23.0",

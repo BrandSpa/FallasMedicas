@@ -124,7 +124,7 @@ class Contact extends Component {
           </label>
         </div>
 
-        <button className="btn" style={{background: '#62FFC8', color: '#6031BA'}}>ENVIAR</button>
+        <button className="btn" style={{background: '#1689fe', color: '#FFF'}}>ENVIAR</button>
       </form>
     )
   }

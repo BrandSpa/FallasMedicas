@@ -1,10 +1,9 @@
 
 const arrow = () =>{
-    console.log('load');
     window.onload = function(){
         
         (function($){
-
+            console.log('load');
             $(document).on('click', 'a[href^="#"]', function (event) {
                 event.preventDefault();
             

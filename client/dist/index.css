@@ -913,6 +913,9 @@ li {
   bottom: 10%;
   z-index: 3; }
 
+.checkbox_privacy label {
+  color: #545454; }
+
 .quo-fixed {
   position: fixed;
   bottom: 0;

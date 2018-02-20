@@ -1,6 +1,5 @@
 
 const arrow = () =>{
-    window.onload = function(){
         
         (function($){
             console.log('load');
@@ -27,9 +26,7 @@ const arrow = () =>{
             })
 
         })(jQuery);
-    }
     
-
 }
 
 export default arrow;

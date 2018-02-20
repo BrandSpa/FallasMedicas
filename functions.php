@@ -88,7 +88,7 @@ function add_search_box( $items, $args ) {
         }
        
         $items_array[] = $items;
-        $items_array[] = '<li><a href="https://api.whatsapp.com/send?phone=312 2332323"><i class="fab fa-whatsapp"></i> 312 2332323</a> </li>';
+        $items_array[] = '<li><a href="https://api.whatsapp.com/send?phone=3122332323"><i class="fab fa-whatsapp whatsapp_icon"></i> 312 233 2323</a> </li>';
 
         $items = implode('', $items_array);
     }

@@ -11,6 +11,7 @@ import Contact from './components/contact';
 import PostsSlider from './components/posts_slider';
 import MenuMobile from './components/menu_mobile';
 import FooterMobile from './components/footer_mobile';
+import Arrow from './components/lib/arrow';
 
 multipleRender(FooterMobile, '.ra-footer-mobile');
 multipleRender(MenuMobile, '.ra-menu-mobile');

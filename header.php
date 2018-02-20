@@ -63,7 +63,7 @@
 	</div>
 </header>
 <div class="floating-logo" >
-	<a href="#contact" class="">
+	<a href="#contacto" class="">
 				<?php  require('templates/float.php') ?>
 	</a>
 </div>

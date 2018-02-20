@@ -21,8 +21,6 @@ multipleRender(QuotationFormFixed, '.ra-quotation-form-fixed');
 multipleRender(Contact, '.ra-contact');
 multipleRender(PostsSlider, '.ra-posts-slider');
 
-arrow();
-
 function hasClass(el, classNm) {
   if(el.className.indexOf(classNm) > -1) {
     return true;
@@ -69,3 +67,6 @@ let els = document.querySelectorAll('.menu-item-has-children > a');
 
   document.addEventListener('click', handleClick, true);
 });
+
+
+arrow();

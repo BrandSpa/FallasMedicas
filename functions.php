@@ -75,3 +75,22 @@ function wpdocs_theme_name_wp_title( $title, $sep ) {
   return $title;
 }
 add_filter( 'wp_title', 'wpdocs_theme_name_wp_title', 10, 2 );
+
+add_filter( 'wp_nav_menu_items','add_search_box', 10, 2 );
+function add_search_box( $items, $args ) {
+    if( $args->theme_location == 'header' ) // only for primary menu
+    {
+        $items_array = array();
+        while ( false !== ( $item_pos = strpos ( $items, '<li', 2 ) ) )
+        {
+            $items_array[] = substr($items, 0, $item_pos);
+            $items = substr($items, $item_pos);
+        }
+       
+        $items_array[] = $items;
+        $items_array[] = '<li><a href=""><i class="fab fa-whatsapp"></i>312 2332323</a> </li>';
+
+        $items = implode('', $items_array);
+    }
+	return $items;
+}

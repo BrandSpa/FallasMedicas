@@ -907,6 +907,12 @@ li {
     .slider__btns .slider__btns__right {
       right: 10px; } }
 
+.floating-logo {
+  position: fixed;
+  left: 0;
+  top: 60%;
+  z-index: 3; }
+
 .quo-fixed {
   position: fixed;
   bottom: 0;

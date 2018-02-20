@@ -1,6 +1,7 @@
 
 const arrow = () =>{
     window.onload = function(){
+        console.log('load');
         (function($){
 
             $(document).on('click', 'a[href^="#"]', function (event) {

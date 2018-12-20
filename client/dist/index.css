@@ -697,7 +697,7 @@ li {
   .app-header__navicon {
     float: right;
     font-size: 40px;
-    color: #6032ba;
+    color: #fff;
     display: none; }
     @media (max-width: 767px) {
       .app-header__navicon {
@@ -751,8 +751,7 @@ li {
       -webkit-animation: dash 2s cubic-bezier(0.42, 0, 1, 0.6);
       animation: dash 2s cubic-bezier(0.42, 0, 1, 0.6);
       fill: #fff; }
-    .app-header--scrolling .app-header__menu li a {
-      color: #fff !important; }
+    
     .app-header--scrolling .app-header__navicon {
       float: right;
       font-size: 40px;
@@ -764,7 +763,7 @@ li {
   .app-header__menu {
     float: right;
     margin: 0;
-    padding: 10px 0 0 0; }
+    padding: 17px 0 0 0 !important; }
     @media (max-width: 767px) {
       .app-header__menu {
         display: none; } }
@@ -780,7 +779,7 @@ li {
         -webkit-transition: all 500ms;
         transition: all 500ms; }
   .app-header .current_page_item {
-    border-bottom: 2px solid #fff; }
+    border-bottom: 0px; }
   .app-header .header__widget {
     float: right; }
     @media (max-width: 767px) {
@@ -790,23 +789,25 @@ li {
     display: none;
     position: absolute;
     top: 30px;
-    min-width: 100px;
+    min-width: 170px;
     background: #fff;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
-    padding: 20px 40px;
+    padding: 1em !important;
     border-radius: 10px 10px 40px 10px; }
     .app-header .sub-menu li {
       display: block;
       width: 100%;
-      margin: 0; }
+      margin: 0;
+	  padding-bottom: .3em;}
       .app-header .sub-menu li:last-child a {
         border: none; }
       .app-header .sub-menu li a {
-        display: block;
-        color: #6031BA !important;
-        font-size: 12px;
-        padding: 4px; }
+            display: inline-block;
+			color: #f85071;
+			font-size: 14px;
+			padding: 2px;
+			line-height: initial; }
     .app-header .sub-menu--open {
       display: block; }
 
@@ -1031,12 +1032,11 @@ li {
     padding: 40px;
     float: left;
     width: 100%;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(10, 16, 34, 0.2);
-    box-shadow: 0 1px 1px 0 rgba(10, 16, 34, 0.2);
     -webkit-transition: all .7s;
     transition: all .7s;
     min-height: 220px;
-    position: relative; }
+    position: relative;
+    border-radius: 20px;}
     .post-slide__content:hover {
       -webkit-box-shadow: 0 10px 20px -5px rgba(10, 16, 34, 0.2);
       box-shadow: 0 10px 20px -5px rgba(10, 16, 34, 0.2);
@@ -2788,3 +2788,7 @@ html {
     text-align: center; }
   .footer ul li {
     color: #FFF; }
+
+.app-header, .app-header--scrolling {
+    padding: 0px !important;
+}

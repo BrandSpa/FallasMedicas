@@ -26,16 +26,19 @@ class PostSlide extends Component {
     return (
       <div className="post-slide" style={{width: postWidth, float: 'left'}}>
         <div className="post-slide__content">
-          <div className="post-slide__header">
-            <span>{this.getDate(post.post_date)}</span> 
-          </div>
+          
           <a href={post.guid}>
             <h4 className="post-slide__title">{post.post_title}</h4>
+			<div className="post-slide__header">
+				<span>{this.getDate(post.post_date)}</span> 
+			 </div>
           </a>
+		<br>
+			<a href={post.guid} className="post-slide__link">LEER MÁS</a>
           <div className="post-slide__image">
             <img src={post.post_image} />
           </div>
-          <a href={post.guid} className="post-slide__link">LEER MÁS</a>
+          
         </div>
       </div>
     )

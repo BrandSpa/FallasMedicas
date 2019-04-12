@@ -45,7 +45,8 @@ function store_contact() {
 		<p>Teléfono: ".$data['phone']."</p>
 		<p>Caso: ".$data['question']."</p>
 		";
-		wp_mail(['michaelsanchez@brandspa.com', 'vanessalotero@fallasmedicas.com'], $data['name']." te envío un caso a traves de fallasmedicas.com", $message);
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+		wp_mail(['michaelsanchez@brandspa.com', 'vanessalotero@fallasmedicas.com'], $data['name']." te envío un caso a traves de fallasmedicas.com", $message, $headers);
 		responseJson(["success" => true]);
 	}
 

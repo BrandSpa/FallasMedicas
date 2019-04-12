@@ -39,6 +39,13 @@ function store_contact() {
 		responseJson(["errors" => $gump->get_errors_array(), "success" => false ]);
 	} else {
 		$res = $wpdb->insert( 'contacts', $data, [ '%s', '%s', '%s', '%s', '%s', '%s' ] );
+		$message = "
+		<p>Nombre: ".$data['name']."</p>
+		<p>Email: ".$data['email']."</p>
+		<p>Teléfono: ".$data['phone']."</p>
+		<p>Caso: ".$data['question']."</p>
+		";
+		wp_mail(['michaelsanchez@brandspa.com', 'vanessalotero@fallasmedicas.com'], $data['name']." te envío un caso a traves de fallasmedicas.com", $message);
 		responseJson(["success" => true]);
 	}
 

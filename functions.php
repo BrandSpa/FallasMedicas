@@ -88,8 +88,10 @@ function add_search_box( $items, $args ) {
         }
        
         $items_array[] = $items;
-        $items_array[] = '<li><a href="https://api.whatsapp.com/send?phone=573209795969" target="_blank"><i class="fab fa-whatsapp whatsapp_icon"></i> 320 979 5969</a> </li>';
+        $items_array[] = '<li><a href="https://api.whatsapp.com/send?phone=573229387944" target="_blank"><i class="fab fa-whatsapp whatsapp_icon"></i> 322 938 7944</a> </li>';
+		$items_array[] = '<li><a target="_blank"><i class="fas fa-phone"></i> 01 8000 189 699</a> </li>';
 
+		
         $items = implode('', $items_array);
     }
 	return $items;
